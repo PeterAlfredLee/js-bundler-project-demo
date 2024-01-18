@@ -1,0 +1,11 @@
+<template>
+  <div margin='0' class='logo-wrapper' id='origin-10-40'>
+    <img alt="originjs logo" class="logo" src="@/assets/originjs.png" width="37" height="37"/>
+  </div>
+</template>
+<style scoped>
+.logo-wrapper {
+  filter: grayscale(0.45999999999999996);
+}
+</style>
+
