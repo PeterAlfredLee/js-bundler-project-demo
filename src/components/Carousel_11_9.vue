@@ -19,9 +19,9 @@ export default {
 
   setup() {
     const slides = [
-      { content: '#5C1B2F', backgroundColor: '#5C1B2F' },
-      { content: '#6AAF3C', backgroundColor: '#6AAF3C' },
-      { content: '#F4E41B', backgroundColor: '#F4E41B' },
+      { content: '#4234AA', backgroundColor: '#4234AA' },
+      { content: '#AACF45', backgroundColor: '#AACF45' },
+      { content: '#552E3B', backgroundColor: '#552E3B' },
     ];
 
     const styles = {
@@ -79,3 +79,4 @@ export default {
 <style scoped>
 /* Your CSS styles if any */
 </style>
+
