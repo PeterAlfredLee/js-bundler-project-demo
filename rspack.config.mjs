@@ -35,7 +35,7 @@ const config = {
         type: 'javascript/auto'
       },
       {
-        test: /.\less$/,
+        test: /\.less$/,
         loader: 'less-loader',
         type: 'css'
       }
