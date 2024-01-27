@@ -12,6 +12,7 @@
     "start:rspack": "rspack serve --config rspack.config.mjs",
     "start:snowpack": "snowpack dev --config snowpack.config.mjs",
     "start:webpack": "webpack serve --config webpack.config.mjs --mode development",
+    "build:esbuild": "node esbuild.mjs",
     "build:farm": "cross-env IS_BUILD=1 farm build --config farm.config.js",
     "build:vite": "run-p type-check \"build-only {@}\" --",
     "build:rollup": "rollup -c rollup.config.js",
